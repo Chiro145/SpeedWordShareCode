@@ -31,7 +31,7 @@ var WORDE, WORDV : Text;
 	i : Byte;
 begin
 	textcolor(2);
-	write('Chon Ngon Ngu English[0], Tieng Viet[1] :');
+	write('Chon Ngon Ngu Tieng Anh[0], Tieng Viet[1] :');
 	readln(Lang);
 	while ( (Lang < 0) or ( Lang > 1) ) do 
 		begin
